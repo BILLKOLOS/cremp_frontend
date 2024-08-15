@@ -28,10 +28,10 @@
     "vite": "^5.1.4"
   },
   "scripts": {
-    "dev": "webpack --mode development",
-    "build": "webpack --config webpack.config.cjs --mode production",
+    "dev": "vite",
+    "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "webpack --watch",
+    "preview": "vite preview",
     "dev:remote": "cross-env VITE_DEV_REMOTE=remote npm run dev"
   },
   "devDependencies": {
